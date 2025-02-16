@@ -37,7 +37,7 @@ $query = mysqli_query($conn, $select);
                         <td><?php echo $row['name']; ?></td>
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['mobile']; ?></td>
-                        <td><img src="<?php echo $row['photo']; ?>" height="100px" width="100px"></td>
+                        <td><img src="<?php echo $row['photo']; ?>" height="100px" width="150px"></td>
                         <td><a href='delete.php?id=<?php echo $row['id'] ?>'>Delete</a></td>
                         <td><a href='edit.php?id=<?php echo $row['id'] ?>'>Update</a></td>
                     </tr>
